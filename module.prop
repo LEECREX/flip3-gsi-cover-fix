@@ -1,0 +1,6 @@
+id=flip3_touch_policy
+name=Flip3 GSI - Cover Display and Touch Fix
+version=2.0.1
+versionCode=3
+author=Lecrex
+description=Cover touchscreen policy patch and automatic cover display recovery for the verified Galaxy Z Flip3 GSI setup. No resolution, density or rotation changes.
