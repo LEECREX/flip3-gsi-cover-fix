@@ -12,11 +12,9 @@ After Android boots, a service detects the lid sensor and listens for closure ev
 
 **Resolution, density, font size, rotation, launcher, and navigation settings are left to the user.** The module does not fix UI layout problems introduced by separate scaling adjustments.
 
-## Tested by the maintainer
+## Tested
 
-Lecrex tested the original version on their own **SM-F711B**, with **Project Infinity X 3.12 GSI (Android 16, ARM64 A/B with GApps)**, **Samsung Android 15 / One UI 7 vendor F711BXXSJJZH3**, and **Magisk 31.1**. Cover display recovery and touch input worked, including unlocking and using apps.
-
-The English 2.0.1 package preserves the functional shell instructions and patched library from that working version; branding, messages, comments and documentation were updated.
+I tested  on **SM-F711B**, with **Project Infinity X 3.12 GSI (Android 16, ARM64 A/B with GApps)**, **Samsung Android 15 / One UI 7 vendor F711BXXSJJZH3**, and **Magisk 31.1**. Cover display recovery and touch input worked, including unlocking and using apps.
 
 Other devices and builds have not been tested. The same mechanism may help another matching setup, but that is an expectation, not verified compatibility. The installer deliberately rejects unrecognized libraries.
 
